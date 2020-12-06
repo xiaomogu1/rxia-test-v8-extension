@@ -10,6 +10,7 @@ Then go to greeting-app
 ./mvnw quarkus:remove-extension -Dextensions="org.acme:quarkus-rxia:1.0-SNAPSHOT"
 ./mvnw quarkus:add-extension -Dextensions="org.acme:quarkus-rxia:1.0-SNAPSHOT"
 
-
 mvn clean compile quarkus:dev
+
+Test url 
 curl -X POST http://localhost:8080/persons     -H 'content-type: application/json'     -H 'accept: application/json'     -d '{"person": {"name":"John Quark", "age": 20}}'
