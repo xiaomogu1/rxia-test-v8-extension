@@ -5,6 +5,8 @@ go to quarkus-rxia-parent
 mvn install
 mvn clean test
 
+make sure org.acme:quarkus-rxia:1.0-SNAPSHOT.jar installed in your local
+
 Then go to greeting-app
 
 ./mvnw quarkus:remove-extension -Dextensions="org.acme:quarkus-rxia:1.0-SNAPSHOT"
