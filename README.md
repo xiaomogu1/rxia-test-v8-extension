@@ -1,13 +1,13 @@
 # rxia-test-v8-extension
 
 
- go to quarkus-rxia-parent<br/>
+ # go to quarkus-rxia-parent<br/>
  mvn install<br/>
  mvn clean test<br/>
 
  make sure org.acme:quarkus-rxia:1.0-SNAPSHOT.jar installed in your local<br/>
 
- Then go to greeting-app<br/>
+ # Then go to greeting-app<br/>
 
  ./mvnw quarkus:remove-extension -Dextensions="org.acme:quarkus-rxia:1.0-SNAPSHOT"<br/>
  ./mvnw quarkus:add-extension -Dextensions="org.acme:quarkus-rxia:1.0-SNAPSHOT"<br/>
